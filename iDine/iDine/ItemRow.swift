@@ -33,6 +33,7 @@ struct ItemRow: View {
                 Text("$\(item.price)")
             }
             
+            Spacer()
             
             ForEach(
                 item.restrictions,
