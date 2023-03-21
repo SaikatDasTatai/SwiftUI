@@ -13,15 +13,20 @@ struct ContentView: View {
         from: "menu.json"
     )
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(menu) {section in
-                    Section(header: Text(section.name)) {
+                    Section(section.name) {
                         ForEach(section.items) { item in
-                            ItemRow(item: item)
+                            NavigationLink(value: item) {
+                                ItemRow(item: item)
+                            }
                         }
                     }
                 }
+            }
+            .navigationDestination(for: MenuItem.self) { item in
+                ItemDetail(item: item)
             }
             .navigationTitle("Menu")
             .listStyle(.grouped)
