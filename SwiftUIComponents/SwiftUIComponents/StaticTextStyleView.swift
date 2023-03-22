@@ -14,7 +14,11 @@ struct StaticTextStyleView: View {
         result.link = URL(string: "https://www.hackingwithswift.com")
         return result
     }
-
+    
+    let alignments: [TextAlignment] = [.leading, .center, .trailing]
+    
+    @State private var alignment: TextAlignment = .leading
+    
     var body: some View {
         VStack {
             // Give font size
@@ -27,6 +31,12 @@ struct StaticTextStyleView: View {
                 .fontDesign(.serif)
                 .fontWidth(.condensed)
                 .frame(width: 300)
+                .multilineTextAlignment(alignment)
+            Picker("Text Alignment", selection: $alignment) {
+                ForEach(alignments, id: \.self) { alignment in
+                    Text(String(describing: alignment))
+                }
+            }
             Text(message)
         }
         .padding()
