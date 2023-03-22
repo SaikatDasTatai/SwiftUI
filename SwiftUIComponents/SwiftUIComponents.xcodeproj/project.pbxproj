@@ -12,6 +12,7 @@
 		BDF191D529CB80150041F569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF191D429CB80150041F569 /* Assets.xcassets */; };
 		BDF191D829CB80150041F569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF191D729CB80150041F569 /* Preview Assets.xcassets */; };
 		BDF191DF29CB840E0041F569 /* StaticTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF191DE29CB840E0041F569 /* StaticTextView.swift */; };
+		BDF191E129CB85000041F569 /* StaticTextStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF191E029CB85000041F569 /* StaticTextStyleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BDF191D429CB80150041F569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF191D729CB80150041F569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDF191DE29CB840E0041F569 /* StaticTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTextView.swift; sourceTree = "<group>"; };
+		BDF191E029CB85000041F569 /* StaticTextStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTextStyleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				BDF191D029CB80130041F569 /* SwiftUIComponentsApp.swift */,
 				BDF191D229CB80130041F569 /* ContentView.swift */,
 				BDF191DE29CB840E0041F569 /* StaticTextView.swift */,
+				BDF191E029CB85000041F569 /* StaticTextStyleView.swift */,
 				BDF191D429CB80150041F569 /* Assets.xcassets */,
 				BDF191D629CB80150041F569 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF191D329CB80130041F569 /* ContentView.swift in Sources */,
+				BDF191E129CB85000041F569 /* StaticTextStyleView.swift in Sources */,
 				BDF191DF29CB840E0041F569 /* StaticTextView.swift in Sources */,
 				BDF191D129CB80130041F569 /* SwiftUIComponentsApp.swift in Sources */,
 			);
