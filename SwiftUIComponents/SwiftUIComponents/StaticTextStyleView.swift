@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct StaticTextStyleView: View {
+    var message: AttributedString {
+        var result = AttributedString("Learn Swift here")
+        result.font = .largeTitle
+        result.link = URL(string: "https://www.hackingwithswift.com")
+        return result
+    }
+
     var body: some View {
         VStack {
             // Give font size
@@ -20,6 +27,7 @@ struct StaticTextStyleView: View {
                 .fontDesign(.serif)
                 .fontWidth(.condensed)
                 .frame(width: 300)
+            Text(message)
         }
         .padding()
     }
