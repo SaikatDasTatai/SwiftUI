@@ -17,6 +17,7 @@
 		BDE71EC229C99E4A00CBA00A /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE71EC129C99E4A00CBA00A /* menu.json */; };
 		BDE71EC429CA18D300CBA00A /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE71EC329CA18D300CBA00A /* ItemRow.swift */; };
 		BDE71EC629CA37E300CBA00A /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE71EC529CA37E300CBA00A /* ItemDetail.swift */; };
+		BDE71ECA29CADF1A00CBA00A /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE71EC929CADF1A00CBA00A /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BDE71EC129C99E4A00CBA00A /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		BDE71EC329CA18D300CBA00A /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		BDE71EC529CA37E300CBA00A /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		BDE71EC929CADF1A00CBA00A /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				BDE71EAF29C9984E00CBA00A /* ContentView.swift */,
 				BDE71EC329CA18D300CBA00A /* ItemRow.swift */,
 				BDE71EC529CA37E300CBA00A /* ItemDetail.swift */,
+				BDE71EC929CADF1A00CBA00A /* OrderView.swift */,
 				BDE71EBB29C99D9600CBA00A /* Helper.swift */,
 				BDE71EBD29C99DD700CBA00A /* Menu.swift */,
 				BDE71EBE29C99DD700CBA00A /* Order.swift */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE71EC629CA37E300CBA00A /* ItemDetail.swift in Sources */,
+				BDE71ECA29CADF1A00CBA00A /* OrderView.swift in Sources */,
 				BDE71EB029C9984E00CBA00A /* ContentView.swift in Sources */,
 				BDE71EAE29C9984E00CBA00A /* iDineApp.swift in Sources */,
 				BDE71EC029C99DD700CBA00A /* Order.swift in Sources */,
