@@ -29,3 +29,4 @@ This combination gives you the most recent version of SwiftUI, which in turn del
 
 ## Contents
 1. [iDine](https://github.com/SaikatDasTatai/SwiftUI/tree/main/iDine) -  is a restaurant app that lists items in a menu and helps folks place orders.
+2. [SwiftUI Components Capabilities](https://github.com/SaikatDasTatai/SwiftUI/tree/main/SwiftUIComponents)
